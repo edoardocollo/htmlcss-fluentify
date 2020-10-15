@@ -42,9 +42,19 @@ background-color: #D3D3D3;
 .btn_white {
   border: 1px solid white;
 }
+.big_btn {
+  color: white;
+  text-decoration: none;
+  font-size: 16px!important;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
 
 /* class utility */
 
+/* header section */
+
+/* nav section */
 #nav_container {
   height: 200px;
   height: 80px;
@@ -68,3 +78,25 @@ background-color: #D3D3D3;
   right: 0;
   text-align: right;
 }
+/* /nav section */
+
+/* hero section */
+#hero_container {
+  position: relative;
+  height: 480px;
+  background-image: url('../img/banner_header.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+}
+#hero_text {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+#hero_text h1 {
+  margin-bottom: 40px;
+}
+/* /header section */
